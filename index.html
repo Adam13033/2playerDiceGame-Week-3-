@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./diceGame2P.css">
+</head>
+<body id="diceGame">
+    <div class="heading">
+        <h1>Dice Game</h1>
+        <p>First person to score 20 or above wins, roll 1 and you lose!</p>
+    </div>
+
+    <div class="container">
+        <div id="player1-position">
+            <p id="player1">Player 1</p>
+            <p class="player1-score-card">Score:</p>
+
+            <div class="dice-position">
+                <div id="roll-dice1">Roll the dice</div>
+                <div class="dice-container1">
+                    <img id="player1-dice" />
+                </div>
+            </div>
+            <div class="button">
+                <button id="player1-roll">Roll</button>
+                <button id="player1-hold">Hold</button>
+                <button id="play-again1">Play again!</button>
+            </div>
+        </div>
+        <div id="player2-position">
+            <p id="player2">Player 2</p>
+            <p class="player2-score-card">Score:</p>
+
+            <div class="dice-position">
+                <div id="roll-dice2">Roll the dice</div>
+                <div class="dice-container2">
+                    <img id="player2-dice" />
+                </div>
+            </div>
+            <div class="button">
+                <button id="player2-roll">Roll</button>
+                <button id="player2-hold">Hold</button>
+                <button id="play-again2">Play again!</button>
+            </div>
+        </div>
+    </div>
+    <script src="DiceGame2P.js"></script>
+</body>
+</html>
